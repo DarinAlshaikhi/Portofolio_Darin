@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 100px;
+  background-color: #66b7c2;
+}
+
+header {
+  text-align: center;
+  background-color: #68a5ad;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  font-style: italic;
+  margin: 0;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+}
+
+.contact a,
+.skills li {
+  text-decoration: none;
+  color: inherit;
+}
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display:flex
+}
+
+li {
+  margin: 4px 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #68a5ad;
+  color: #fff;
+  padding:0;
+  position: fixed;
+  width: 15%;
+  bottom: 0;
+}
+.contact h6 {
+  color: blue; 
+  text-decoration: none; 
+}
+
+.contact h6:hover {
+  text-decoration: underline; 
+}
+
+.space {
+  margin-right: 12px;
+}
+
+#Huawei:hover {
+  width:500px;
+  height:500px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header {
+    padding: 15px 0;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
